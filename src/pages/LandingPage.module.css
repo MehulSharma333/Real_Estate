@@ -1,0 +1,570 @@
+.propertiesByArea {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+  font-weight: 600;
+}
+.vestibulumAnteIpsum {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-large-400-size);
+  line-height: 28px;
+  color: var(--gray-400);
+}
+.description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl);
+  gap: var(--gap-5xl);
+}
+.row1 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 26px;
+}
+.cards,
+.cardwrapper,
+.row1,
+.row2 {
+  align-self: stretch;
+  display: flex;
+}
+.row2 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.cards,
+.cardwrapper {
+  flex: 1;
+}
+.cardwrapper {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 1300px;
+}
+.cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 95%;
+}
+.propertiesByAreaImagesSect {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 53px var(--padding-31xl);
+  gap: 45px;
+}
+.areaLabels,
+.propertiesByAreaImagesSect,
+.propertiesRow {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.areaLabels {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 95%;
+}
+.propertiesRow {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 86px;
+}
+.areaContent,
+.propertiesByAreaFeatureCar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.areaContent {
+  padding: 75px 0 0;
+  box-sizing: border-box;
+  gap: 54px;
+  max-width: 95%;
+}
+.propertiesByAreaFeatureCar {
+  background-color: var(--primary-50);
+  padding: 70px 0;
+}
+.latestPropertiesOf,
+.vestibulumAnteIpsum1 {
+  align-self: stretch;
+  position: relative;
+  font-family: var(--body-large-400);
+  text-align: center;
+}
+.latestPropertiesOf {
+  font-size: var(--heading-heading-1-size);
+  line-height: 48px;
+  font-weight: 600;
+  color: var(--primary-800);
+}
+.vestibulumAnteIpsum1 {
+  font-size: var(--body-large-400-size);
+  line-height: 28px;
+  color: var(--gray-400);
+}
+.text {
+  width: 688px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 95%;
+}
+.cardsRow,
+.contents,
+.latestPropertiesOfRentCard {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.cardsRow {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-13xl);
+}
+.contents,
+.latestPropertiesOfRentCard {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contents {
+  gap: var(--gap-21xl);
+  max-width: 95%;
+}
+.latestPropertiesOfRentCard {
+  margin: 0;
+  padding: var(--padding-67xl) 0;
+  gap: var(--gap-20xl);
+}
+.mappinIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.washington {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.details,
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-5xs);
+}
+.details {
+  align-self: stretch;
+  height: 24px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.card1 {
+  text-decoration: none;
+  flex: 1;
+  border-radius: var(--br-7xs);
+  height: 426px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  background-image: url(/public/card-11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 355px;
+  max-width: 370px;
+  color: inherit;
+}
+.cardRow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--body-regular-400-size);
+  color: var(--color-white);
+}
+.contents1,
+.latestPropertiesOfRentCard1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contents1 {
+  gap: var(--gap-21xl);
+  max-width: 95%;
+}
+.latestPropertiesOfRentCard1 {
+  padding: var(--padding-67xl) 0;
+  gap: var(--gap-20xl);
+}
+.areYouLooking,
+.enquiryForm {
+  align-self: stretch;
+  position: relative;
+}
+.enquiryForm {
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+}
+.areYouLooking {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: var(--font-roboto);
+  color: #576074;
+}
+.formText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.formText,
+.input,
+.inputRow {
+  align-self: stretch;
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+  font-family: var(--font-roboto);
+  font-size: var(--body-regular-400-size);
+  color: var(--color-darkgray);
+}
+.inputRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.destinationNameInput {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  font-family: var(--font-roboto);
+  font-size: var(--body-regular-400-size);
+  color: var(--color-darkgray);
+}
+.formSubmitButton {
+  width: 222px;
+}
+.formFields {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.contents2,
+.form,
+.formFields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form {
+  align-self: stretch;
+  border-radius: 12px;
+  background-color: var(--color-white);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.03);
+  padding: 28px var(--padding-11xl);
+  gap: var(--gap-mid);
+  text-align: left;
+  font-size: var(--header-heading-4-size);
+  color: #434343;
+  font-family: var(--font-poppins);
+}
+.contents2 {
+  flex: 1;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 900px;
+}
+.latestPropertiesOfRentCard2 {
+  align-self: stretch;
+  background-color: var(--primary-50);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-67xl) 5px;
+}
+.houselineIcon {
+  width: 44px;
+  position: relative;
+  height: 44px;
+}
+.realState,
+.reis {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.realState {
+  font-size: var(--body-small-400-size);
+  line-height: 16px;
+  font-weight: 500;
+}
+.logo,
+.reisParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.contactUs2 {
+  position: relative;
+  font-size: var(--header-heading-4-size);
+  line-height: 32px;
+  font-weight: 600;
+  color: var(--gray-black);
+}
+.praesentNullaMassa {
+  width: 312px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+}
+.emailExamplemailcom {
+  position: relative;
+  line-height: 24px;
+  color: var(--gray-700);
+}
+.contactDetails {
+  align-self: stretch;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  text-align: left;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-500);
+  font-family: var(--body-regular-400);
+}
+.socialMediaLogo {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.socialMediaCard {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm);
+}
+.socialMediaLogo1 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contactUs1,
+.socialMedia {
+  width: 304px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactUs1 {
+  width: 312px;
+  height: 300px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: center;
+  color: var(--primary-500);
+  font-family: var(--body-large-400);
+}
+.home {
+  position: relative;
+  line-height: 24px;
+}
+.features,
+.featuresSubCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featuresSubCategories {
+  align-self: stretch;
+  height: 184px;
+  gap: var(--gap-base);
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-500);
+}
+.features {
+  width: 173px;
+  height: 248px;
+  gap: var(--gap-13xl);
+}
+.teamAndPolicies {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.termsAndPoliciesSubcategori {
+  align-self: stretch;
+  height: 104px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-500);
+}
+.footer,
+.termsAndPolicies,
+.termsAndPoliciesSubcategori {
+  display: flex;
+  align-items: flex-start;
+}
+.termsAndPolicies {
+  width: 203px;
+  height: 168px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.footer {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--header-heading-4-size);
+  color: var(--gray-black);
+  font-family: var(--body-regular-400);
+}
+.footerSection,
+.landingPage {
+  display: flex;
+  justify-content: flex-start;
+}
+.footerSection {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-31xl);
+}
+.landingPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: var(--heading-heading-1-size);
+  color: var(--primary-800);
+  font-family: var(--body-large-400);
+}
+@media screen and (max-width: 1200px) {
+  .row1,
+  .row2 {
+    flex-direction: row;
+  }
+  .text {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .description {
+    align-self: stretch;
+    width: auto;
+  }
+  .row1,
+  .row2 {
+    flex-direction: column;
+  }
+  .text {
+    align-self: stretch;
+    width: auto;
+  }
+  .contents {
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .input {
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputRow {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer,
+  .footerSection {
+    flex-direction: column;
+    gap: var(--gap-0);
+  }
+  .footerSection {
+    align-self: stretch;
+    width: auto;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footer {
+    gap: var(--gap-0);
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer,
+  .footerSection {
+    flex-direction: column;
+  }
+}

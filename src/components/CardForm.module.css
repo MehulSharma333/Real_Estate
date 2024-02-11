@@ -1,0 +1,167 @@
+.findYourDream {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 72px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.vestibulumAnteIpsum {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-large-400-size);
+  line-height: 28px;
+  font-family: var(--body-large-400);
+  color: var(--primary-50);
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.rent1 {
+  position: relative;
+  font-size: var(--body-regular-400-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-large-400);
+  color: var(--color-white);
+  text-align: center;
+}
+.rent,
+.tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+}
+.tabs {
+  gap: var(--gap-3xs);
+}
+.locations1 {
+  position: relative;
+  font-size: var(--body-regular-400-size);
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--body-large-400);
+  color: var(--primary-700);
+  text-align: center;
+}
+.locations {
+  width: 137px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.propertyType1 {
+  width: 150px;
+  position: relative;
+  font-size: var(--body-regular-400-size);
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--body-large-400);
+  color: var(--primary-700);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+}
+.dropdownlink {
+  align-self: stretch;
+}
+.propertyType,
+.rentRange {
+  width: 177px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.rentRange {
+  width: 155px;
+}
+.searchCta {
+  width: 102px;
+}
+.formcontainer,
+.formwrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.formcontainer {
+  margin: 0;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-43xl);
+  box-sizing: border-box;
+  max-width: 1400px;
+}
+.formwrapper {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.rentsale {
+  margin: 0;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.heroSection,
+.heroSectionContents,
+.rentsale {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heroSectionContents {
+  justify-content: center;
+  gap: var(--gap-43xl);
+  max-width: 95%;
+}
+.heroSection {
+  justify-content: flex-start;
+  padding: var(--padding-101xl) var(--padding-11xl);
+  background-image: url(/public/hero-section@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--display-size);
+  color: var(--color-white);
+  font-family: var(--body-regular-400);
+}
+@media screen and (max-width: 960px) {
+  .text {
+    max-width: 100%;
+  }
+  .formcontainer {
+    width: 300px;
+    flex-direction: column;
+    gap: var(--gap-0);
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
